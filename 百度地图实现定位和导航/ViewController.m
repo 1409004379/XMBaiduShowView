@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <BaiduMapAPI_Map/BMKMapView.h>
+#import <BaiduMapAPI_Map/BMKPointAnnotation.h>
 
-@interface ViewController ()
+#import <BaiduMapAPI_Map/BMKPinAnnotationView.h>
+@interface ViewController ()<BMKMapViewDelegate>
+@property(nonatomic,strong)BMKMapView *mapView;
 
 @end
 
@@ -16,12 +20,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    BMKMapView *mapView = [[BMKMapView alloc]initWithFrame:self.view.bounds];
+    self.view = mapView;
+    self.mapView = mapView;
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)viewDidAppear:(BOOL)animated
+{
+    BMKPointAnnotation *annotation = [[BMKPointAnnotation alloc]init];
+    CLLocationCoordinate2D coor;
+    coor.latitude = 300.4;
+    coor.longitude = 116.404;
+    annotation.coordinate = coor;
+    annotation.title = @"首都";
+    
+    [_mapView addAnnotation:annotation];
+}
+-(BMKAnnotationView *)mapView:(BMKMapView *)mapView viewForAnnotation:(id<BMKAnnotation>)annotation
+{
+    if ([annotation isKindOfClass:[BMKPointAnnotation class]]) {
+        BMKPinAnnotationView *newAnnotationView = [[BMKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"myAnnotation"];
+        newAnnotationView.pinColor = BMKPinAnnotationColorPurple;
+        newAnnotationView.animatesDrop = YES;// 设置该标注点动画显示
+        return newAnnotationView;
+    }
+    return nil;
 }
 
 @end

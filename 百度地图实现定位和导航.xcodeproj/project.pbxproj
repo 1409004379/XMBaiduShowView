@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7849B13561C35A7AC08D6DD0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF64302C44153995F594BF5C /* libPods.a */; };
 		FC53D7821CF2FAFB0002A26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D7811CF2FAFB0002A26C /* main.m */; };
 		FC53D7851CF2FAFB0002A26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D7841CF2FAFB0002A26C /* AppDelegate.m */; };
 		FC53D7881CF2FAFB0002A26C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D7871CF2FAFB0002A26C /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02266B3D586D04098A3B3EB4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DD21B9CC360E2D8CA9A603C9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FC53D77D1CF2FAFB0002A26C /* 百度地图实现定位和导航.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百度地图实现定位和导航.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC53D7811CF2FAFB0002A26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC53D7831CF2FAFB0002A26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		FC53D7A11CF2FAFB0002A26C /* 百度地图实现定位和导航UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度地图实现定位和导航UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC53D7A51CF2FAFB0002A26C /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
 		FC53D7A71CF2FAFB0002A26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF64302C44153995F594BF5C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7849B13561C35A7AC08D6DD0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		869CDAA2281EDDFA3BEE4528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02266B3D586D04098A3B3EB4 /* Pods.debug.xcconfig */,
+				DD21B9CC360E2D8CA9A603C9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B46E96739B607BDA5AFDC7DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF64302C44153995F594BF5C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC53D7741CF2FAFB0002A26C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				FC53D7991CF2FAFB0002A26C /* 百度地图实现定位和导航Tests */,
 				FC53D7A41CF2FAFB0002A26C /* 百度地图实现定位和导航UITests */,
 				FC53D77E1CF2FAFB0002A26C /* Products */,
+				869CDAA2281EDDFA3BEE4528 /* Pods */,
+				B46E96739B607BDA5AFDC7DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC53D7AA1CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航" */;
 			buildPhases = (
+				E07C3AEACFD2E7D4FB24625A /* Check Pods Manifest.lock */,
 				FC53D7791CF2FAFB0002A26C /* Sources */,
 				FC53D77A1CF2FAFB0002A26C /* Frameworks */,
 				FC53D77B1CF2FAFB0002A26C /* Resources */,
+				E422D05C7D32A959AB02E9B2 /* Embed Pods Frameworks */,
+				5394FB171509FF1346F7E60B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5394FB171509FF1346F7E60B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07C3AEACFD2E7D4FB24625A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E422D05C7D32A959AB02E9B2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC53D7791CF2FAFB0002A26C /* Sources */ = {
@@ -409,6 +484,7 @@
 		};
 		FC53D7AB1CF2FAFB0002A26C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02266B3D586D04098A3B3EB4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "百度地图实现定位和导航/Info.plist";
@@ -420,6 +496,7 @@
 		};
 		FC53D7AC1CF2FAFB0002A26C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD21B9CC360E2D8CA9A603C9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "百度地图实现定位和导航/Info.plist";
@@ -496,6 +573,7 @@
 				FC53D7AC1CF2FAFB0002A26C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC53D7AD1CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +582,7 @@
 				FC53D7AF1CF2FAFB0002A26C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC53D7B01CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +591,7 @@
 				FC53D7B21CF2FAFB0002A26C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
