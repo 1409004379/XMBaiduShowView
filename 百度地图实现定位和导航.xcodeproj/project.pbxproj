@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC53D7821CF2FAFB0002A26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D7811CF2FAFB0002A26C /* main.m */; };
+		FC53D7851CF2FAFB0002A26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D7841CF2FAFB0002A26C /* AppDelegate.m */; };
+		FC53D7881CF2FAFB0002A26C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D7871CF2FAFB0002A26C /* ViewController.m */; };
+		FC53D78B1CF2FAFB0002A26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC53D7891CF2FAFB0002A26C /* Main.storyboard */; };
+		FC53D78D1CF2FAFB0002A26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC53D78C1CF2FAFB0002A26C /* Assets.xcassets */; };
+		FC53D7901CF2FAFB0002A26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC53D78E1CF2FAFB0002A26C /* LaunchScreen.storyboard */; };
+		FC53D79B1CF2FAFB0002A26C /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D79A1CF2FAFB0002A26C /* ___________Tests.m */; };
+		FC53D7A61CF2FAFB0002A26C /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53D7A51CF2FAFB0002A26C /* ___________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC53D7971CF2FAFB0002A26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC53D7751CF2FAFB0002A26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC53D77C1CF2FAFB0002A26C;
+			remoteInfo = "百度地图实现定位和导航";
+		};
+		FC53D7A21CF2FAFB0002A26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC53D7751CF2FAFB0002A26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC53D77C1CF2FAFB0002A26C;
+			remoteInfo = "百度地图实现定位和导航";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC53D77D1CF2FAFB0002A26C /* 百度地图实现定位和导航.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百度地图实现定位和导航.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC53D7811CF2FAFB0002A26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC53D7831CF2FAFB0002A26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC53D7841CF2FAFB0002A26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC53D7861CF2FAFB0002A26C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC53D7871CF2FAFB0002A26C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC53D78A1CF2FAFB0002A26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC53D78C1CF2FAFB0002A26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC53D78F1CF2FAFB0002A26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC53D7911CF2FAFB0002A26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC53D7961CF2FAFB0002A26C /* 百度地图实现定位和导航Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度地图实现定位和导航Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC53D79A1CF2FAFB0002A26C /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+		FC53D79C1CF2FAFB0002A26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC53D7A11CF2FAFB0002A26C /* 百度地图实现定位和导航UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度地图实现定位和导航UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC53D7A51CF2FAFB0002A26C /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
+		FC53D7A71CF2FAFB0002A26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC53D77A1CF2FAFB0002A26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC53D7931CF2FAFB0002A26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC53D79E1CF2FAFB0002A26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC53D7741CF2FAFB0002A26C = {
+			isa = PBXGroup;
+			children = (
+				FC53D77F1CF2FAFB0002A26C /* 百度地图实现定位和导航 */,
+				FC53D7991CF2FAFB0002A26C /* 百度地图实现定位和导航Tests */,
+				FC53D7A41CF2FAFB0002A26C /* 百度地图实现定位和导航UITests */,
+				FC53D77E1CF2FAFB0002A26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC53D77E1CF2FAFB0002A26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC53D77D1CF2FAFB0002A26C /* 百度地图实现定位和导航.app */,
+				FC53D7961CF2FAFB0002A26C /* 百度地图实现定位和导航Tests.xctest */,
+				FC53D7A11CF2FAFB0002A26C /* 百度地图实现定位和导航UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC53D77F1CF2FAFB0002A26C /* 百度地图实现定位和导航 */ = {
+			isa = PBXGroup;
+			children = (
+				FC53D7831CF2FAFB0002A26C /* AppDelegate.h */,
+				FC53D7841CF2FAFB0002A26C /* AppDelegate.m */,
+				FC53D7861CF2FAFB0002A26C /* ViewController.h */,
+				FC53D7871CF2FAFB0002A26C /* ViewController.m */,
+				FC53D7891CF2FAFB0002A26C /* Main.storyboard */,
+				FC53D78C1CF2FAFB0002A26C /* Assets.xcassets */,
+				FC53D78E1CF2FAFB0002A26C /* LaunchScreen.storyboard */,
+				FC53D7911CF2FAFB0002A26C /* Info.plist */,
+				FC53D7801CF2FAFB0002A26C /* Supporting Files */,
+			);
+			path = "百度地图实现定位和导航";
+			sourceTree = "<group>";
+		};
+		FC53D7801CF2FAFB0002A26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC53D7811CF2FAFB0002A26C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC53D7991CF2FAFB0002A26C /* 百度地图实现定位和导航Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FC53D79A1CF2FAFB0002A26C /* ___________Tests.m */,
+				FC53D79C1CF2FAFB0002A26C /* Info.plist */,
+			);
+			path = "百度地图实现定位和导航Tests";
+			sourceTree = "<group>";
+		};
+		FC53D7A41CF2FAFB0002A26C /* 百度地图实现定位和导航UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC53D7A51CF2FAFB0002A26C /* ___________UITests.m */,
+				FC53D7A71CF2FAFB0002A26C /* Info.plist */,
+			);
+			path = "百度地图实现定位和导航UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC53D77C1CF2FAFB0002A26C /* 百度地图实现定位和导航 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC53D7AA1CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航" */;
+			buildPhases = (
+				FC53D7791CF2FAFB0002A26C /* Sources */,
+				FC53D77A1CF2FAFB0002A26C /* Frameworks */,
+				FC53D77B1CF2FAFB0002A26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百度地图实现定位和导航";
+			productName = "百度地图实现定位和导航";
+			productReference = FC53D77D1CF2FAFB0002A26C /* 百度地图实现定位和导航.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC53D7951CF2FAFB0002A26C /* 百度地图实现定位和导航Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC53D7AD1CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航Tests" */;
+			buildPhases = (
+				FC53D7921CF2FAFB0002A26C /* Sources */,
+				FC53D7931CF2FAFB0002A26C /* Frameworks */,
+				FC53D7941CF2FAFB0002A26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC53D7981CF2FAFB0002A26C /* PBXTargetDependency */,
+			);
+			name = "百度地图实现定位和导航Tests";
+			productName = "百度地图实现定位和导航Tests";
+			productReference = FC53D7961CF2FAFB0002A26C /* 百度地图实现定位和导航Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC53D7A01CF2FAFB0002A26C /* 百度地图实现定位和导航UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC53D7B01CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航UITests" */;
+			buildPhases = (
+				FC53D79D1CF2FAFB0002A26C /* Sources */,
+				FC53D79E1CF2FAFB0002A26C /* Frameworks */,
+				FC53D79F1CF2FAFB0002A26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC53D7A31CF2FAFB0002A26C /* PBXTargetDependency */,
+			);
+			name = "百度地图实现定位和导航UITests";
+			productName = "百度地图实现定位和导航UITests";
+			productReference = FC53D7A11CF2FAFB0002A26C /* 百度地图实现定位和导航UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC53D7751CF2FAFB0002A26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kenfor-YF";
+				TargetAttributes = {
+					FC53D77C1CF2FAFB0002A26C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FC53D7951CF2FAFB0002A26C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FC53D77C1CF2FAFB0002A26C;
+					};
+					FC53D7A01CF2FAFB0002A26C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FC53D77C1CF2FAFB0002A26C;
+					};
+				};
+			};
+			buildConfigurationList = FC53D7781CF2FAFB0002A26C /* Build configuration list for PBXProject "百度地图实现定位和导航" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC53D7741CF2FAFB0002A26C;
+			productRefGroup = FC53D77E1CF2FAFB0002A26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC53D77C1CF2FAFB0002A26C /* 百度地图实现定位和导航 */,
+				FC53D7951CF2FAFB0002A26C /* 百度地图实现定位和导航Tests */,
+				FC53D7A01CF2FAFB0002A26C /* 百度地图实现定位和导航UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC53D77B1CF2FAFB0002A26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC53D7901CF2FAFB0002A26C /* LaunchScreen.storyboard in Resources */,
+				FC53D78D1CF2FAFB0002A26C /* Assets.xcassets in Resources */,
+				FC53D78B1CF2FAFB0002A26C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC53D7941CF2FAFB0002A26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC53D79F1CF2FAFB0002A26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC53D7791CF2FAFB0002A26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC53D7881CF2FAFB0002A26C /* ViewController.m in Sources */,
+				FC53D7851CF2FAFB0002A26C /* AppDelegate.m in Sources */,
+				FC53D7821CF2FAFB0002A26C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC53D7921CF2FAFB0002A26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC53D79B1CF2FAFB0002A26C /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC53D79D1CF2FAFB0002A26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC53D7A61CF2FAFB0002A26C /* ___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC53D7981CF2FAFB0002A26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC53D77C1CF2FAFB0002A26C /* 百度地图实现定位和导航 */;
+			targetProxy = FC53D7971CF2FAFB0002A26C /* PBXContainerItemProxy */;
+		};
+		FC53D7A31CF2FAFB0002A26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC53D77C1CF2FAFB0002A26C /* 百度地图实现定位和导航 */;
+			targetProxy = FC53D7A21CF2FAFB0002A26C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC53D7891CF2FAFB0002A26C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC53D78A1CF2FAFB0002A26C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC53D78E1CF2FAFB0002A26C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC53D78F1CF2FAFB0002A26C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC53D7A81CF2FAFB0002A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC53D7A91CF2FAFB0002A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC53D7AB1CF2FAFB0002A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百度地图实现定位和导航/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC53D7AC1CF2FAFB0002A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百度地图实现定位和导航/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC53D7AE1CF2FAFB0002A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百度地图实现定位和导航Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百度地图实现定位和导航.app/百度地图实现定位和导航";
+			};
+			name = Debug;
+		};
+		FC53D7AF1CF2FAFB0002A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百度地图实现定位和导航Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百度地图实现定位和导航.app/百度地图实现定位和导航";
+			};
+			name = Release;
+		};
+		FC53D7B11CF2FAFB0002A26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百度地图实现定位和导航UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百度地图实现定位和导航";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC53D7B21CF2FAFB0002A26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百度地图实现定位和导航UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百度地图实现定位和导航";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC53D7781CF2FAFB0002A26C /* Build configuration list for PBXProject "百度地图实现定位和导航" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC53D7A81CF2FAFB0002A26C /* Debug */,
+				FC53D7A91CF2FAFB0002A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC53D7AA1CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC53D7AB1CF2FAFB0002A26C /* Debug */,
+				FC53D7AC1CF2FAFB0002A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC53D7AD1CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC53D7AE1CF2FAFB0002A26C /* Debug */,
+				FC53D7AF1CF2FAFB0002A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC53D7B01CF2FAFB0002A26C /* Build configuration list for PBXNativeTarget "百度地图实现定位和导航UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC53D7B11CF2FAFB0002A26C /* Debug */,
+				FC53D7B21CF2FAFB0002A26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC53D7751CF2FAFB0002A26C /* Project object */;
+}
